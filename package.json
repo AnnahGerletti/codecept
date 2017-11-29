@@ -1,0 +1,26 @@
+{
+  "name": "codecept",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnahGerletti/codecept.git"
+  },
+  "keywords": [
+    "codeceptJS"
+  ],
+  "author": "tapin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnahGerletti/codecept/issues"
+  },
+  "homepage": "https://github.com/AnnahGerletti/codecept#readme",
+  "devDependencies": {
+    "codeceptjs": "^1.0.3",
+    "codeceptjs-webdriverio": "^1.1.0"
+  }
+}
