@@ -3,6 +3,6 @@ Feature('Landing Page');
 
 Scenario('Am I running', (I) => {
   I.amOnPage("/")
-  I.click("tapinDecide")
-  I.amOnPage("/products/decide")
+  I.see("Wellcome to Tapin")
+  done()
 });
