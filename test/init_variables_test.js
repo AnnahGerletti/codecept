@@ -13,3 +13,6 @@ Scenario('return user', (I) => {
   I.amOnPage("http://tapin.nz/tapinknow")
   I.see('Wellcome Back')
 })
+
+
+//aproved invitation, the website will decide which path to take you too based if you have a Tapin cookie
