@@ -13,8 +13,9 @@
     "codeceptjs-nightmare": "^1.1.0"
   },
   "scripts": {
-    "test": "mocha",
-    "codeceptjs": "./node_modules/.bin/codeceptjs"
+    "test-mocha": "mocha",
+    "codeceptjs": "./node_modules/.bin/codeceptjs",
+    "test": "codeceptjs run --steps"
   },
   "repository": {
     "type": "git",
