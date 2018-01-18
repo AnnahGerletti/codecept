@@ -4,7 +4,7 @@
   "output": "./output",
   "helpers": {
     "Nightmare": {
-      "url": "http://tapin.nz"
+      "url": "http://localhost:8080"
     }
   },
   "include": {
