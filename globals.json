@@ -1,3 +1,5 @@
 {
   "tapinknow":"http://localhost:8080"
 }
+
+// don't think you need this for every test becuse the codecpt config file holds the main website, you just have to reference the page you want the test to be on
