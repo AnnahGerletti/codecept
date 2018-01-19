@@ -35,5 +35,4 @@ Scenario('three headers', (I) => {
 
 }
  
-// the main page of tapin:know is the website but then there are routes to different pages, so how do you distringuish within codeceptjs I.amOnPage(tapinwebsite) but also on login('/login') page vs mainpage ('/')???
 
