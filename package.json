@@ -7,10 +7,12 @@
     "test": "tests"
   },
   "dependencies": {
-    "codeceptjs-webdriverio": "^1.1.0"
+    "codeceptjs-webdriverio": "1.1.0"
   },
   "devDependencies": {
-    "codeceptjs-nightmare": "^1.1.0"
+    "codeceptjs": "^1.1.2",
+    "codeceptjs-nightmare": "1.1.0",
+    "electron": "^1.7.11"
   },
   "scripts": {
     "test-mocha": "mocha",

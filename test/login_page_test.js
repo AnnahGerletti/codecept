@@ -1,7 +1,7 @@
 
 Feature('login page')
 
-Sceanario('see login page', (I) => {
+Scenario('see login page', (I) => {
   I.amOnPage('/login')
   I.seeElement('#login')
 })

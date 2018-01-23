@@ -17,25 +17,24 @@ Scenario('Am I running', (I) => {
 
 Scenario('three headers', (I) => {
   I.amOnPage(globals.tapinknow)
-
-}
+})
 
 Scenario('', (I) => {
   I.amOnPage(globals.tapinknow)
 
-}
+})
 
 
 Scenario('I see headers on page', (I) => {
   I.amOnPage("/")
   I.seeElement("<h2></h2>")
-}
+})
 
 Scenario('clickable subheadings', (I) => {
   I.amOnPage("/")
-  I click()
+  I.click()
   //how to define the clickable subheadings in prototype. Where would that be in code.
 
-}
+})
  
 
