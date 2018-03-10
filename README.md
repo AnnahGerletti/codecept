@@ -1,6 +1,6 @@
 # codecept
 ### A testing framework, for writing Acceptance tests (ATDD)
-#### Documentation is very good. 
+#### Documentation is good - can be confussing  
 
 https://codecept.io/
 
