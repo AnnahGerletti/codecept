@@ -9,13 +9,13 @@ https://codecept.io/
 
 https://codecept.io/helpers/Nightmare/
 
-- Test writen for Devs from project Job Stories  
-- Normal traffic light testing
-- THe idea is these test would be wrtien by a BA which would define the app, they would be given to the Devs would would build it to pass the tests. 
+- Tests writen for Develepers from the Job Stories  
+- Normal traffic light testing - with green (pass) and red (fail)
+- The idea is a Business Analyst would write the codecept ATDD test, which would define the app. The serise of tests would be given to the Devlopers who would build the App to pass the tests. 
 
 # Key things to rememeber
 
-1. KEY: Don't get *codecept.io* mixed up with *codeception* different. 
+1. KEY: Don't get *codecept.io* mixed up with *codeception* DIFFERENT. 
 - codeceptjs = codecept.io
 
 2. Helpful github repo
@@ -33,7 +33,8 @@ https://codecept.io/helpers/Nightmare/
   assert.equal(title, 'React Redux')
 })
 ```
-- The 'I' key word is part of the Acceptance testing framewrok 
+- The 'I' key word is part of the Acceptance testing framewrok, every test starts with it. 
+- Must consider all Edge cases. 
 - `I.amOnPage` is one of the Codecept.io helpers
 - `yield` is an ES6 genorator function, can read about these here:
   https://davidwalsh.name/es6-generators
